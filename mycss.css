@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+
+#content>h1 {
+    font-weight: 700;
+    font-size: 5em;
+    color: lightgreen;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#content>h3 {
+    color: yellow;
+    font-weight: 400;
+    font-size: 2em;
+    text-shadow: 0px 0px 4px red;
+}
+
+#content {
+    text-align: center;
+    padding-top: 28%;
+    ;
+}
+
+hr {
+    width: 600px;
+    border-top: 1px solid #f8f8f8f8;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1523816572-a1a23d1a67b8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=291de7bdfc445a612a72859f041165da&auto=format&fit=crop&w=1051&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: lato;
+}
+
+#de {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-default {
+    background-color: rgb(0, 0, 1, 0.1);
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+#mhd {
+    font-weight: 700;
+    font-size: em;
+    color: #4fff4f;
+}
+
+#mhd:hover {
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: #555;
+    background-color: #f3f1f126;
+}

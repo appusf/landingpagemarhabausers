@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    background-color: red;
+    padding: 15px;
+    grid-gap: 0px 100px;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.grid-container>div {
+    background-color: #e1fadb;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.grid-container :hover {
+    background: black;
+    color: white;
+}
